@@ -102,3 +102,30 @@ footer {
   background: #111827;
   color: white;
 }
+
+
+.cert-badge {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  max-width: 450px;
+  margin-top: 15px;
+}
+
+.cert-badge img {
+  border-radius: 4px;
+}
+
+.cert-badge a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cert-badge a:hover {
+  text-decoration: underline;
+}
